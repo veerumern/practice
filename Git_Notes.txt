@@ -1,0 +1,34 @@
+GIT:
+
+Remote:
+1) Create an account in GIT:
+2) create repository -> select the readme file
+3) copy the link name
+15) verify  the changes in remote
+16) create a new file in the repository,  for ex: sub
+24) verify the sub file for changes
+
+Local:
+4) Create a folder
+5) open cmd
+6) change the directory to the path where the folder is saved cd /d pathname
+7) Give the command - git clone linkname -> step3
+8) Verify the folder -> created in step 4 - it clones the files from remote
+9) create a file in folder, ex: index.html
+10) git status - shows untracked file index.html as the file is in local but not in remote
+11) git add index.html - adds the file
+12) git status - shows as tracked file
+13) git commit -m "added index.file" - commits the file and displays the message - for the first time asks for the below details
+13.1) git configure --global user.email"iamveeru.v7@gmail.com"
+13.2) git configure --global user.name"veerumern"
+14) git push - pushes all the changes to remote - first time asks for crdentials - web page opens
+14.1) autheticate using auth credentials
+17) in cmd give - git pull - sub file will be displayed in the folder
+18) make changes to sub
+19) git status - shows untracked
+20) git add . -> . is used to add all changes
+21) git status - shows tracked
+22) git commit -m "updated sub"
+23) git push
+
+
